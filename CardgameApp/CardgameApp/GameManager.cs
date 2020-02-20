@@ -78,17 +78,10 @@ namespace CardgameApp
         {
             return ("Game beginning with " + Players.Count + " players and for " + rounds + " rounds");
         }
+
         public string QuickGame()
         {
-            string message = "";
-            message += WriteGameInfo() + "\n";
-            //Make sure a player's hand is empty
-            foreach (Player player in Players)
-            {
-                player.Hand.Clear();
-            }
-            //Reset deck
-            deck.GenerateDeck();
+            string message = BeginGame();
             message += DealHands() + "\n";
             message += EndGame();
             return message;
@@ -98,6 +91,13 @@ namespace CardgameApp
             IsInProgress = true;
             PlayerTracker = 0;
             RoundTracker = 0;
+            string message = BeginGame();
+            message += DealOneRound() + "\n";
+            return message;
+        }
+
+        private string BeginGame()
+        {
             string message = "";
             message += WriteGameInfo() + "\n";
             //Make sure a player's hand is empty
@@ -107,9 +107,9 @@ namespace CardgameApp
             }
             //Reset deck
             deck.GenerateDeck();
-            message += DealOneRound() + "\n";
             return message;
         }
+        
         public void NextPlayer()
         {
             if (PlayerTracker < Players.Count-1)
