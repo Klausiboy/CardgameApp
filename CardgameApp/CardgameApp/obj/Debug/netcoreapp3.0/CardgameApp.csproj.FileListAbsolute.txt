@@ -1,0 +1,11 @@
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.exe
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.deps.json
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.runtimeconfig.json
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.runtimeconfig.dev.json
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.dll
+D:\Job\Projekter\CardgameApp\CardgameApp\bin\Debug\netcoreapp3.0\CardgameApp.pdb
+D:\Job\Projekter\CardgameApp\CardgameApp\obj\Debug\netcoreapp3.0\CardgameApp.csprojAssemblyReference.cache
+D:\Job\Projekter\CardgameApp\CardgameApp\obj\Debug\netcoreapp3.0\CardgameApp.AssemblyInfoInputs.cache
+D:\Job\Projekter\CardgameApp\CardgameApp\obj\Debug\netcoreapp3.0\CardgameApp.AssemblyInfo.cs
+D:\Job\Projekter\CardgameApp\CardgameApp\obj\Debug\netcoreapp3.0\CardgameApp.dll
+D:\Job\Projekter\CardgameApp\CardgameApp\obj\Debug\netcoreapp3.0\CardgameApp.pdb
